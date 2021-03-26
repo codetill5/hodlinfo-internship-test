@@ -4,6 +4,7 @@ import Header from './Header';
 import Dashboard from './Dashboard';
 import BannerOne from './BannerOne';
 import CryptoTable from './CryptoTable';
+import BannerTwo from './BannerTwo';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Dashboard />
       <BannerOne />
       <CryptoTable />
+      <BannerTwo />
     </div>
   );
 }
