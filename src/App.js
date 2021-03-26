@@ -3,6 +3,7 @@ import "./App.css";
 import Header from './Header';
 import Dashboard from './Dashboard';
 import BannerOne from './BannerOne';
+import CryptoTable from './CryptoTable';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Dashboard />
       <BannerOne />
+      <CryptoTable />
     </div>
   );
 }
