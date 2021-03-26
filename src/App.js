@@ -5,6 +5,7 @@ import Dashboard from './Dashboard';
 import BannerOne from './BannerOne';
 import CryptoTable from './CryptoTable';
 import BannerTwo from './BannerTwo';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BannerOne />
       <CryptoTable />
       <BannerTwo />
+      <Footer />
     </div>
   );
 }
