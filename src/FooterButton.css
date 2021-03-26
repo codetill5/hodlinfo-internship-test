@@ -1,0 +1,22 @@
+
+
+.footer-btn{
+    width: 100%;
+    background-color: #191d28;
+    bottom: 2px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+button{
+    border: 1px solid #3dc6c1;
+    color: #3dc6c1;
+    background-color: #191d28;
+    padding: 10px 30px;
+   font-size: 20px;
+   word-spacing: 2px;
+   
+}

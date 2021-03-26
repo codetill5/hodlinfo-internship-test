@@ -6,6 +6,7 @@ import BannerOne from './BannerOne';
 import CryptoTable from './CryptoTable';
 import BannerTwo from './BannerTwo';
 import Footer from './Footer';
+import FooterButton from './FooterButton';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <CryptoTable />
       <BannerTwo />
       <Footer />
+      <FooterButton />
     </div>
   );
 }
