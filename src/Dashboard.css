@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+.dashboard{
+    height: 30vh;
+    width: 100%;
+    background-color: #191d28;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard__heading{
+    margin-left: 42.5%;
+    padding-top: 2rem;
+    font-size: 27px;
+    color: #808288;
+    width: 100%;
+    
+}
+.dashboard__left{
+   margin-top: 6rem;
+    position: absolute;
+    left: 5%;
+    color: rgb(61, 198, 193);
+    text-align: center;
+}
+
+.dashboard__left >p{
+    color:#808288 ;
+}
+
+.dashboard__left-two{
+    margin-top: 6rem;
+    position: absolute;
+    left: 20%;
+    color: rgb(61, 198, 193);
+    text-align: center;
+
+}
+
+.dashboard__left-two >p{
+    color:#808288 ;
+}
+
+.dashboard__center{
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    color: #fff;
+
+}
+
+.dashboard__center > h1{
+    font-size: 80px;
+}
+
+.dashboard__center > p{
+    font-size: 18px;
+    color: #808288;
+}
+
+.dashboard__right{
+    margin-top: 6rem;
+     position: absolute;
+     right: 20%;
+     color: rgb(61, 198, 193);
+     text-align: center;
+ }
+ .dashboard__right > p{
+    color: #808288;
+ }
+ 
+ .dashboard__right-two{
+     margin-top: 6rem;
+     position: absolute;
+     right: 5%;
+     color: rgb(61, 198, 193);
+     text-align: center;
+ 
+ }
+ .dashboard__right-two > p{
+    color: #808288;
+ }
+
+
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    
+    
+    .dashboard__heading{
+        font-size: 20px;
+        width: 30%;
+        margin-left: 130px;
+        margin-top: -30px;
+        text-align: center;
+    }
+
+    .dashboard__left{
+        width: 20%;
+        font-size: 10px;
+        margin-top: 65px;
+    }
+
+    .dashboard__left > h1{
+        font-size: 18px;
+    }
+
+    .dashboard__left-two{
+        width: 20%;
+        margin-left: 10px;
+        font-size: 10px;
+        margin-top: 65px;
+    }
+
+    .dashboard__left-two > h1{
+        font-size: 18px;
+    }
+
+    .dashboard__center{
+        
+        margin-left: 30px;
+        margin-top: 75px;
+    }
+
+    .dashboard__center > h1{
+        font-size: 25px;
+        width: 40%;
+        
+    }
+    .dashboard__center > p{
+        font-size: 10px;
+        width: 40%;
+        
+    }
+
+    .dashboard__right{
+        width: 20%;
+        font-size: 10px;
+        margin-top: 65px;
+       margin-right: -5px;
+    }
+
+    .dashboard__right > h1{
+        font-size: 18px;
+       
+    }
+    .dashboard__right-two{
+        width: 20%;
+        margin-right: -13px;
+        font-size: 10px;
+        margin-top: 65px;
+    }
+
+    .dashboard__right-two > h1{
+        font-size: 18px;
+    }
+
+}
